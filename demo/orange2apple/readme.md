@@ -9,6 +9,7 @@
 <img src="./picture/1.png" width="60%">
 
 然后，根据官网推荐的[Xshell使用](https://www.autodl.com/docs/xshell/)，就能够在Xshell软件上连接好
+
 <img src="./picture/2.png" width="60%">
 
 最后上传数据就行了，我是上传到了数据盘：**/root/autodl-tmp**
@@ -30,11 +31,14 @@ host：connect.westc.gpuhub.com
 ```
 
 连接好以后，训练**cyclegan.py**就可以了，如下界面：
+
 <img src="./picture/4.png" width="60%">
 
 这里需要注意的是，前期上传文件目录名是orange2apple，那么在本地pycharm打开的第一级目录也得是orange2apple，**本地与服务器的文件夹目录需要统一**。
 
 # 3. 训练10个epoch后的效果
 因为数据集比较小，就没有训练多长，这里做一个展示效果
+
 <img src="./picture/5.png" width="60%">
+
 **橘子被转换成苹果的风格，苹果的风格变成了橘子的风格**
