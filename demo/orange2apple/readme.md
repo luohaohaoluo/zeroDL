@@ -1,11 +1,11 @@
-# orange2apple (🍊🉑🍎)
+![image](https://github.com/user-attachments/assets/aa00c316-24fe-438b-a6f4-ba44cd8bb5d4)# orange2apple (🍊🉑🍎)
 借助AutoDL服务器平台，手把手教如何配置，如何上传数据，以及训练网络到验证，并借助pyqt5进行部署展示。
 # 0.  项目介绍
 利用cycleGAN网络，进行风格迁移学习，使得网络能够将一张橘子图像转变为苹果图像，混淆视听，想想就非常激动，那接下来，请读者按照以下方法，一步步开始。
 
 # 1. 上传数据
 首先将服务器选择**无卡开机模式**，开机完成后，出现以下界面：
-![image](./picture/1.png)
+<img src="./picture/1.png" width="30%">
 
 然后，根据官网推荐的[Xshell使用](https://www.autodl.com/docs/xshell/)，就能够在Xshell软件上连接好
 ![image](./picture/2.png)
