@@ -5,9 +5,11 @@
 
 对整个工程的讲解可以查看**fasterrcnn.md**文件，并支持pdf版本下载，根据代码讲解更好地去理解双端目标检测网络的运行。
 
-这是我运行时的参数配置
+这是我运行时的参数配置，主要就是epoch=100，pretrained=False，Freeze_Train=False
 <p align = "center">  
 <img src=./picture/training.png  width="900"/>
 </p>
 
 最后的map为
+
+感兴趣的朋友可以试试pretrained=True的冻结训练情况，应该是要比现在好得多，毕竟backbone见多识广是有好处的
