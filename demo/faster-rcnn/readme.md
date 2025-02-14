@@ -10,7 +10,17 @@
 <img src=./picture/training.png  width="900"/>
 </p>
 
-最后的map为
+训练loss曲线
+<p align = "center">  
+<img src=./picture/loss.png  width="600"/>
+</p>
+
+训练map曲线
+<p align = "center">  
+<img src=./picture/map.png  width="600"/>
+</p>
+
+最后的map为34.21%
 
 运行predicy.py, 选择模式1单张预测，可得到以下结果
 <p align = "center">  
