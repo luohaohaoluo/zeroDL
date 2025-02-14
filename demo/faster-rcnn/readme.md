@@ -7,7 +7,7 @@
 
 这是我运行时的参数配置
 <p align = "center">  
-<img src=./picture/training.png  width="700"/>
+<img src=./picture/training.png  width="900"/>
 </p>
 
 最后的map为
