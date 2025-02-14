@@ -14,7 +14,7 @@
 
 运行predicy.py, 选择模式1单张预测，可得到以下结果
 <p align = "center">  
-<img src=./picture/test.png  width="900"/>
+<img src=./picture/test.png  width="700"/>
 </p>
 
 感兴趣的朋友可以试试pretrained=True的冻结训练情况，应该是要比现在好得多，毕竟backbone见多识广是有好处的
