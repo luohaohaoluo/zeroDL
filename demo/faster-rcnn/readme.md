@@ -1,5 +1,5 @@
 # 目标检测
-利用VOC2007数据集，参考Bubbliiiing大佬的faster-rcnn训练并且学习整个流程
+利用VOC2007数据集，参考Bubbliiiing大佬的[faster-rcnn](https://github.com/bubbliiiing/faster-rcnn-pytorch)训练并且学习整个流程，但是在大佬源代码中我发现有一处错误，就是在预测的时候，还原锚框尺寸比例的代码出了错误。
 
 在code文件夹下是整个工程代码。其中，dataset存放VOC2007数据集和voc的类别文件；model_data存放预训练权重，包括resent50以及训练好的模型权重；networks存放faster-rcnn网络的模型；utils存放一些需要的工具包
 
