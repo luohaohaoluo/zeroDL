@@ -45,4 +45,5 @@
 - **释放实例**：如果释放了实例，下次就需要重新租用，按照**1.1步骤**重头开始，如果只是不使用，关机就行了，没必要释放。
 
 **好了，既然已经学会租赁服务器，那么接下来，就移步到demo里面，开始实战吧，下面是demo有的项目，以及简介：**
-- [orange2apple](./demo/orange2apple): 使用cycleGAN网络，将橘子图像转换为苹果图像，进行风格迁移学习。
+- [orange2apple](./demo/orange2apple): 使用cycleGAN网络，将橘子图像转换为苹果图像，进行**风格迁移学习**。
+- [faster-rcnn](./demo/faster-rcnn): 使用faster-rcnn网络，训练VOC2007数据集，完成**目标检测任务**。
