@@ -135,12 +135,18 @@
 
 
 **annotation_mode** 具体说明如下：
+该预处理文件就是**voc_annotation.py**，这里的2007_train.txt，2007_val.txt文件里面，不仅有样本对应的文件名，还有类别、bbox标签的信息，后续的训练主要也是使用这个
+
+
+**annotation_mode** 具体说明如下：
 - annotation_mode == 0: 根据Annotations文件夹以及ImageSets/main里的样本数据生成trainval.txt, train.txt, val.txt, test.txt, 2007_train.txt，2007_val.txt文件
 - annotation_mode == 1: 根据Annotations文件夹里的样本数据生成trainval.txt, train.txt, val.txt, test.txt
-- annotation_mode == 2 **（推荐直接选择这个模式）** : 根据ImageSets/main文件夹里的样本数据生成2007_train.txt，2007_val.txt文件 
+- annotation_mode == 2 : 根据ImageSets/main文件夹里的样本数据生成2007_train.txt，2007_val.txt文件 
 **这里的2007_train.txt，2007_val.txt，是从里面获取的。** 
 
 以2007_train.txt为例，其每一行的内容：（图片名字，边界框1，边界框1的类别，边界框2，边界框2的类别, .....,）
+
+**官网给的VOC2007数据集的ImageSets/main里，train.txt和val.txt与实际需要训练的样本数目不对应，所以这里建议还是选择annotation_mode == 0的模式，重新生成。**
 
 
 ## 4. dataloder的讲解
